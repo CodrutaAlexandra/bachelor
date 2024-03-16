@@ -1,0 +1,14 @@
+<div id="buttonBar">
+  <button onclick="navigate('index')">Home</button>
+  <button onclick="navigate('dashboard')">Dashboard</button>
+  <button onclick="navigate('user')">User</button>
+  <button onclick="navigate('search')">Search</button>
+  <button onclick="navigate('message')">Message</button>
+  <!-- add more buttons as needed -->
+</div>
+
+<script>
+function navigate(pageName) {
+  window.location.href = '/' + pageName;
+}
+</script>
